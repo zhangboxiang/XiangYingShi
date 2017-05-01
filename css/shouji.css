@@ -1,0 +1,166 @@
+*{
+	padding: 0;
+	margin: 0;
+}
+.clear:after{
+	display: block;
+	content: '';
+	clear:both;
+}
+.left{
+	float: left; display: inline;
+}
+.right{
+	float: right; display: inline;
+}
+.celar{zoom:1;
+}
+li{
+	list-style: none;
+}
+a{
+	text-decoration: none;
+}
+.box{
+	width: 90%;
+	margin: 0 auto;
+}
+.header{
+	width: 100%;
+	height: 60px;
+	background: #058cbe;
+}
+.header_content{
+	height: 60px;
+}
+.header_content_left{
+	width: 90%;
+	height: 60px;
+}
+.header_content_right{
+	width: 10%;
+	height: 60px;
+		position: relative;
+}
+.header_content_right a img{
+	margin-top: 20px;
+}
+.yingchang{
+	display: none;
+}
+.hezi{width: 153px;
+      height: 200px;
+      background: #058cbe;
+       position: absolute;
+       top: 50px;
+       right: 0px;
+       display: none;
+}
+.hezi li{
+	width: 153px;
+	height: 40px;
+	line-height: 40px;
+}
+.hezi li a{
+	display: block;
+	color: white;
+	padding-left: 10px;
+}
+.hezi li a:hover{
+	background: rgba(0,0,0,.5);
+}     
+.header_content_right:hover .hezi{
+	display: block;
+}
+.header_content_left img{
+	margin-top: 17px;
+	margin-left: 10px;
+}
+.header_content_left p{
+	line-height: 60px;
+	font-size: 20px;
+	margin-left: 15px;
+}
+.header_content_left p a{
+	color: #ffffff;
+	font-weight: bold;
+}	
+.center{
+	height: 520px;
+	background: url(../img/bg.jpg) no-repeat;
+}
+.content_left{
+	height: 305px;
+	width: 100%;
+}
+.content_right{
+	width: 100%;
+	height: 50px;
+    position: relative;
+}
+.content_right img{
+	width: 100%;
+	position: absolute;
+	top: 50px;
+	left: 50%;
+	margin-left: -50%;
+}
+.content_left_top{
+	height: 282px;
+}
+.content_left_top h2{
+	height: 108px;
+	line-height: 108px;
+	color: #ffffff;
+}
+.content_left_top p{
+	line-height: 35px;
+	color: #87a67f;
+}
+.content_left_bottom{
+	height: 172px;
+}
+.content_left_bottom dl{
+	width: 100px;
+	height: 117px;
+	background: white;
+	display: none;
+}
+.content_left_bottom dl dt{
+	width: 80px;
+	height: 80px;
+	margin: 0 auto;
+	margin-top: 10px;
+}
+.content_left_bottom dl dd{
+	font-size: 12px;
+	text-align: center;
+	margin-top: 7px;
+}
+.jianxi{
+	margin-left: 20px;
+}
+.wenzi{
+	width: 135px;
+	margin-left: 20px;
+	font-size: 12px;
+	margin-top: 104px;
+	color: white;
+	display: none;
+}
+.footer{
+	margin-top:160px;
+	width: 100%;
+	height: 127px;
+	background: #e7e7e7;
+	text-align: center;
+}
+.footer a{
+	color: #0035ea;
+	font-size: 13px;
+	font-weight: bold;
+	line-height: 127px;
+}
+.footer a:hover{
+	color: red;
+}

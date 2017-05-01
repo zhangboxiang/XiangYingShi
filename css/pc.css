@@ -1,0 +1,156 @@
+*{
+	padding: 0;
+	margin: 0;
+}
+.clear:after{
+	display: block;
+	content: '';
+	clear:both;
+}
+.left{
+	float: left; display: inline;
+}
+.right{
+	float: right; display: inline;
+}
+.celar{zoom:1;
+}
+li{
+	list-style: none;
+}
+a{
+	text-decoration: none;
+}
+.box{
+	width: 1176px;
+	margin: 0 auto;
+}
+.header{
+	width: 100%;
+	height: 60px;
+	background: #058cbe;
+}
+.header_content{
+	height: 60px;
+}
+.header_content_left{
+	width: 50%;
+	height: 60px;
+}
+.header_content_right{
+	width: 50%;
+	height: 60px;
+}
+.header_content_right li{
+	width: 75px;
+	line-height: 60px;
+	text-align: center;
+}
+.header_content_right li a{
+	display: block;
+	color: white;
+}
+.header_content_right li a:hover{
+	background: rgba(0,0,245,.5);
+}
+.header_content_right a img{
+	display: none;
+}
+.hezi{
+	display: none;
+}
+li:nth-child(2){
+	width: 52px;
+}
+li:nth-child(5){
+	width: 66px;
+}
+.header_content_left img{
+	margin-top: 17px;
+	margin-left: 10px;
+}
+.header_content_left p{
+	line-height: 60px;
+	font-size: 20px;
+	margin-left: 15px;
+}
+.header_content_left p a{
+	color: #ffffff;
+	font-weight: bold;
+}	
+.center{
+	height: 455px;
+	background: url(../img/bg.jpg) no-repeat;
+}
+.content_left{
+	height: 455px;
+	width: 50%;
+}
+.content_right{
+	height: 455px;
+	width: 50%;
+}
+.content_right img{
+	width: 475px;
+	height: 257px;
+	margin-top: 80px;
+	-webkit-transition: all linear all .6s; 
+}
+.content_left_top{
+	height: 282px;
+}
+.content_left_top h2{
+	height: 108px;
+	line-height: 108px;
+	color: #ffffff;
+}
+.content_left_top p{
+	height: 35px;
+	line-height: 35px;
+	color: #87a67f;
+}
+.content_left_bottom{
+	height: 172px;
+}
+.content_left_bottom dl{
+	width: 100px;
+	height: 117px;
+	background: white;
+}
+.content_left_bottom dl dt{
+	width: 80px;
+	height: 80px;
+	margin: 0 auto;
+	margin-top: 10px;
+}
+.content_left_bottom dl dd{
+	font-size: 12px;
+	text-align: center;
+	margin-top: 7px;
+}
+.jianxi{
+	margin-left: 20px;
+}
+.wenzi{
+	width: 135px;
+	margin-left: 20px;
+	font-size: 12px;
+	margin-top: 104px;
+	color: white;
+}
+.footer{
+	width: 100%;
+	height: 127px;
+	line-height: 127px;
+	text-align: center;
+	background: #e7e7e7;
+}
+.footer a{
+	color: #0035ea;
+	font-size: 22px;
+	font-weight: bold;
+	line-height: 127px;
+}
+.footer a:hover{
+	color: red;
+}
